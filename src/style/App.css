@@ -1,0 +1,42 @@
+h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+body {
+  background-color: #333;
+}
+
+.cardList {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  gap: 16px;
+}
+
+.cardImg {
+  width: 100%;
+  display: block;
+}
+
+.cardInfo {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.cardDate {
+  color: darkgray;
+}
+
+.btn {
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 0.6em 1.2em;
+}
+
+.btn:hover {
+  background-color: #5c5b5b;
+}
